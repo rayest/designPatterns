@@ -6,16 +6,16 @@ package cn.rayest.singleton;
 // 懒汉式单例模式
 class Singleton {
 
-    private static Singleton uniqueInstance;
+    private static Singleton instance;
 
     private Singleton() {
     }
 
     public static Singleton getInstance() {
-        if (uniqueInstance == null) {
-            uniqueInstance = new Singleton();
+        if (instance == null) {
+            instance = new Singleton();
         }
-        return uniqueInstance;
+        return instance;
     }
 }
 
