@@ -3,6 +3,7 @@ package cn.rayest.singleton;
 /**
  * Created by Rayest on 2016/7/15 0015.
  */
+// 懒汉式单例模式
 class Singleton {
 
     private static Singleton uniqueInstance;
@@ -18,7 +19,7 @@ class Singleton {
     }
 }
 
-public class AppSingleton {
+public class AppLazySingleton {
     public static void main(String[] args) {
         Singleton object1 = Singleton.getInstance();
         Singleton object2 = Singleton.getInstance();
