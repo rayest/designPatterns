@@ -1,9 +1,9 @@
-package cn.rayest.decorator;
+package cn.rayest.decorator.book;
 
 /**
  * Created by Rayest on 2016/6/5 0005.
  */
-class Essay extends Book{
+public class Essay extends Book{
     public Essay(){
         description = "Essay";
     }
