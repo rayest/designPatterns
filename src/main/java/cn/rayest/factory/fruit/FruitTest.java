@@ -1,8 +1,6 @@
-package cn.rayest.factory;
+package cn.rayest.factory.fruit;
 
-import cn.rayest.factory.fruit.Fruit;
-
-public class Application {
+public class FruitTest {
     public static void main(String[] args) {
         Fruit fruit = Factory.getInstance(args[0]);
         if (fruit != null) {

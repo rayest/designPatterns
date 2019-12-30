@@ -1,8 +1,7 @@
-package cn.rayest.factory;
+package cn.rayest.factory.fruit;
 
-import cn.rayest.factory.fruit.Apple;
-import cn.rayest.factory.fruit.Banana;
-import cn.rayest.factory.fruit.Fruit;
+import cn.rayest.factory.fruit.impl.Apple;
+import cn.rayest.factory.fruit.impl.Banana;
 
 public class Factory {
     public static Fruit getInstance(String className) {
