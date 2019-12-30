@@ -3,10 +3,11 @@ package cn.rayest.proxy.game.impl;
 import cn.rayest.proxy.game.GamePlayer;
 
 public class GamePlayerProxy implements GamePlayer {
-    private GamePlayerImpl gamePlayer;
+    private GamePlayer gamePlayer;
 
-    public GamePlayerProxy(GamePlayerImpl gamePlayer) {
-        this.gamePlayer = gamePlayer;
+    // 代理在知道代理对象后，初始化代理对象
+    public GamePlayerProxy(String username) {
+        gamePlayer = new GamePlayerImpl(this, username);
     }
 
     @Override

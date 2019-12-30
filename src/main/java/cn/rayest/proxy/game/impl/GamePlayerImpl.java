@@ -6,7 +6,7 @@ public class GamePlayerImpl implements GamePlayer {
 
     private String username;
 
-    public GamePlayerImpl(String username) {
+    public GamePlayerImpl(GamePlayer gamePlayer, String username) {
         this.username = username;
     }
 
