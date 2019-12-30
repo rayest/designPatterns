@@ -1,4 +1,6 @@
-package cn.rayest.proxy;
+package cn.rayest.proxy.definition.impl;
+
+import cn.rayest.proxy.definition.Subject;
 
 public class ProxySubject implements Subject {
     private Subject subject;
