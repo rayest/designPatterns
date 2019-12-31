@@ -1,6 +1,6 @@
-package cn.rayest.chain.handler;
+package cn.rayest.chain.permission.handler;
 
-import cn.rayest.chain.request.Woman;
+import cn.rayest.chain.permission.request.Woman;
 
 public abstract class Handler {
     public static final int FATHER_LEVEL_REQUEST = 1;

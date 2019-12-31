@@ -1,7 +1,7 @@
-package cn.rayest.chain.handler.impl;
+package cn.rayest.chain.permission.handler.impl;
 
-import cn.rayest.chain.handler.Handler;
-import cn.rayest.chain.request.Woman;
+import cn.rayest.chain.permission.handler.Handler;
+import cn.rayest.chain.permission.request.Woman;
 
 public class Husband extends Handler {
     public Husband() {

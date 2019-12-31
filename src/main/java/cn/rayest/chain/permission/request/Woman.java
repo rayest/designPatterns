@@ -1,4 +1,4 @@
-package cn.rayest.chain.request;
+package cn.rayest.chain.permission.request;
 
 public interface Woman {
     int getType();

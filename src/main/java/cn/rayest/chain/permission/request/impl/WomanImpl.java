@@ -1,6 +1,6 @@
-package cn.rayest.chain.request.impl;
+package cn.rayest.chain.permission.request.impl;
 
-import cn.rayest.chain.request.Woman;
+import cn.rayest.chain.permission.request.Woman;
 
 public class WomanImpl implements Woman {
 

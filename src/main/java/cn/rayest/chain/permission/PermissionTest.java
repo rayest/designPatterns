@@ -1,11 +1,11 @@
-package cn.rayest.chain;
+package cn.rayest.chain.permission;
 
-import cn.rayest.chain.handler.Handler;
-import cn.rayest.chain.handler.impl.*;
-import cn.rayest.chain.request.Woman;
-import cn.rayest.chain.request.impl.WomanImpl;
+import cn.rayest.chain.permission.handler.Handler;
+import cn.rayest.chain.permission.handler.impl.*;
+import cn.rayest.chain.permission.request.Woman;
+import cn.rayest.chain.permission.request.impl.WomanImpl;
 
-public class ChainTest {
+public class PermissionTest {
     public static void main(String[] args) {
         Handler father = new Father();
         Handler husband = new Husband();
