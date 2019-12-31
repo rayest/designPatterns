@@ -1,4 +1,4 @@
-package cn.rayest.decorator;
+package cn.rayest.decorator.book;
 
 import cn.rayest.decorator.book.Book;
 

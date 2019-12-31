@@ -1,6 +1,6 @@
-package cn.rayest.decorator.bookmark;
+package cn.rayest.decorator.book.bookmark;
 
-import cn.rayest.decorator.BookmarkDecorator;
+import cn.rayest.decorator.book.BookmarkDecorator;
 import cn.rayest.decorator.book.Book;
 
 /**

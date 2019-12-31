@@ -1,11 +1,10 @@
-package cn.rayest.decorator;
+package cn.rayest.decorator.book;
 
-import cn.rayest.decorator.book.Book;
-import cn.rayest.decorator.book.Essay;
-import cn.rayest.decorator.book.Novel;
-import cn.rayest.decorator.book.Poem;
-import cn.rayest.decorator.bookmark.CharacterBookmark;
-import cn.rayest.decorator.bookmark.SceneryBookmark;
+import cn.rayest.decorator.book.bookmark.CharacterBookmark;
+import cn.rayest.decorator.book.bookmark.SceneryBookmark;
+import cn.rayest.decorator.book.impl.Essay;
+import cn.rayest.decorator.book.impl.Novel;
+import cn.rayest.decorator.book.impl.Poem;
 
 /**
  * Created by Rayest on 2016/6/5 0005.
