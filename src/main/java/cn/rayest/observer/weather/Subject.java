@@ -1,4 +1,4 @@
-package cn.rayest.observer;
+package cn.rayest.observer.weather;
 
 
 /**
