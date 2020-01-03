@@ -1,9 +1,13 @@
 package cn.rayest.facade.computer;
 
+import cn.rayest.facade.computer.impl.CPU;
+import cn.rayest.facade.computer.impl.Disk;
+import cn.rayest.facade.computer.impl.Memory;
+
 public class ComputerFacade {
-    private CPU cpu = new CPU();
-    private Memory memory = new Memory();
-    private Disk disk = new Disk();
+    private Computer cpu = new CPU();
+    private Computer memory = new Memory();
+    private Computer disk = new Disk();
 
     public void start() {
         cpu.start();
