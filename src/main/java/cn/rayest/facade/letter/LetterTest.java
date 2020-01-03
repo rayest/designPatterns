@@ -1,4 +1,4 @@
-package cn.rayest.facade;
+package cn.rayest.facade.letter;
 
 public class LetterTest {
     public static void main(String[] args) {

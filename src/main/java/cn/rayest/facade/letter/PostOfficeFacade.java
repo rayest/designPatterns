@@ -1,7 +1,6 @@
-package cn.rayest.facade;
+package cn.rayest.facade.letter;
 
 import cn.rayest.facade.letter.impl.LetterImpl;
-import cn.rayest.facade.letter.Letter;
 
 public class PostOfficeFacade {
     private Letter letter = new LetterImpl();

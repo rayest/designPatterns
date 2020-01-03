@@ -1,4 +1,4 @@
-package cn.rayest.facade;
+package cn.rayest.facade.letter;
 
 import cn.rayest.facade.letter.Letter;
 
