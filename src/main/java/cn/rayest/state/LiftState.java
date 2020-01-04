@@ -1,0 +1,15 @@
+package cn.rayest.state;
+
+public abstract class LiftState {
+
+    protected Context context;
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
+    public abstract void open();
+
+    public abstract void close();
+
+}
